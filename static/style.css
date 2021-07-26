@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap'); 
+
+* {
+   margin: 0; 
+   padding: 0;
+   font-family: 'Bad Script', cursive;
+}
+
+html, body {
+   width: 100%; 
+   height: 100%; 
+}
+
+header {
+   display: flex; 
+   justify-content: center; 
+   flex-wrap: wrap;
+   width: 100%;
+   background-image: url('./img/DPwIpX.jpg');
+}
+
+header h1{
+   width: 100%; 
+   text-align: center; 
+   padding: 4rem; 
+   color: #a892d6;
+   font-size: 3rem; 
+}
+
+header form{
+   width: 100%; 
+   display: flex; 
+   justify-content: center; 
+   padding: 0 3rem 3rem 3rem;
+}
+
+header form input{
+   width: 60%; 
+   padding: .5rem;
+   font-size: 1.2rem; 
+   border: 1px solid #a892d6; 
+   outline: none; 
+}
+
+header form button{
+   border: 1px solid #a892d6;
+   background-color: #fff; 
+   color: #a892d6;
+   padding: .5rem; 
+   font-size: 1.2rem;
+   font-weight: 600; 
+   cursor: pointer; 
+   transition: .3s ease-out; 
+   width: 10rem;
+}
+
+header form button:hover{ 
+   background-color:#a892d6;
+   color: #fff; 
+   border: 1px solid #ffff;
+}
+section a{
+   display: block; 
+   margin-left: auto; 
+   text-decoration: none; 
+   color: #49463f;
+   font-size: 1.2rem; 
+   transition: .3s ease-out;
+   width: 7rem; 
+}
+
+section a:hover{
+   color: #aa3931; 
+}
+
+section{
+   height: 100%; 
+   background-color: #D6E3EB;
+   padding: 3rem;
+}
+
+section ul{
+   list-style: none; 
+}
+
+section ul li{
+   padding: 1rem; 
+   cursor: pointer; 
+   border-bottom: .1rem solid #ccc; 
+   font-size: 1.2rem; 
+   transition: .3s ease-out;
+}
+
+section ul li:hover{
+   background-color: #F2D5CE;
+}
